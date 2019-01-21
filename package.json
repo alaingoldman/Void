@@ -1,7 +1,7 @@
 {
   "name": "void",
   "version": "0.0.0-development",
-  "description": "General purpose js api",
+  "description": "General purpose api",
   "scripts": {
     "prestart": "babel-node tools/generateMockData.js",
     "start": "json-server --watch src/api/db.json --port 3001"
